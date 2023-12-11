@@ -29,5 +29,6 @@ https://github.com/artyom-beilis/pytorch_dlprim
  make
  make install
 
+ torch.ops.load_library("/Users/*/git/git/pytorch_dlprim/build/libpt_ocl.dylib")
  python mnist.py --device ocl:0
 ```
